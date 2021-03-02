@@ -7,22 +7,14 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-          <title>ShareKit App</title>
+          <title>Flex Email Templates</title>
           <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header></Header>
       <MainContainer>
-        <Profile></Profile>
-        <div className="grid">
-          <Collection></Collection>
-          <Collection></Collection>
-          <Collection></Collection>
-          <Collection></Collection>
-          <Collection></Collection>
-          <Collection></Collection>
-          <Collection></Collection>
-          <Collection></Collection>          
-        </div>
+        <ul>
+          <li><a href="/templates/Clarion Financial Freedom.html">Clarion Financial Freedom</a></li>
+        </ul>
       </MainContainer>
       <footer>
         {/* <a

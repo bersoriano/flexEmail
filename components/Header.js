@@ -4,10 +4,9 @@ export default function Header() {
         <div className="header">
             <div className="headerContainer">
             <Link href={`/`}>
-                <h1>KitShare</h1>
+                <h1>Flex Email</h1>
             </Link>
             <div className="flex"></div>
-            <span>Login</span>
             </div>
             <style jsx>{`
                 .header {
