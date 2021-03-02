@@ -12,8 +12,11 @@ export default function Home() {
       <MainContainer>
         <h2>Templates:</h2>
         <ul>
-          <li><a href="/templates/Clarion Financial Freedom.html">Clarion Financial Freedom</a></li>
-          <li><a href="/templates/Clarion Flex Premium Email 2.html">Clarion Flex Premium Email 2</a></li>
+          <li>
+            <a href="/templates/Clarion Financial Freedom.html">Clarion Financial Freedom</a>
+            <a href="https://app.emailonacid.com/shared-preview/9bBlWCIdNe">Testing</a>
+          </li>
+          {/* <li><a href="/templates/Clarion Flex Premium Email 2.html">Clarion Flex Premium Email 2</a></li> */}
         </ul>
       </MainContainer>
       <footer>
@@ -32,6 +35,18 @@ export default function Home() {
           display: flex;
           flex-direction: column;
           justify-content: center;       
+        }
+        ul {
+
+        }
+        ul li {
+          display: flex;
+          flex-direction: row;
+          padding: 0;
+          margin: 0;
+        }
+        ul li a {
+          margin: 1em 1em 0 0em;
         }
         footer {
           width: 100%;
