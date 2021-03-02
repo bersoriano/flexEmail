@@ -12,6 +12,7 @@ export default function Home() {
       </Head>
       <Header></Header>
       <MainContainer>
+        <h2>Templates:</h2>
         <ul>
           <li><a href="/templates/Clarion Financial Freedom.html">Clarion Financial Freedom</a></li>
         </ul>
@@ -50,7 +51,6 @@ export default function Home() {
 
         a {
           color: inherit;
-          text-decoration: none;
         }
 
         .title a {
