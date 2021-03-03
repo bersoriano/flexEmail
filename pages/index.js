@@ -32,9 +32,9 @@ export default function Home() {
             <a href="/templates/hand3.html">
               Template 1 - B
             </a>
-            <a href="https://app.emailonacid.com/shared-preview/JUa4MJ0ioo">
+            {/* <a href="https://app.emailonacid.com/shared-preview/JUa4MJ0ioo">
               E-mail previews
-            </a>            
+            </a>             */}
           </li>                      
           <li>
             <a href="/templates/calendar.html">
@@ -48,9 +48,9 @@ export default function Home() {
             <a href="/templates/calendar2.html">
               Template 2 - B
             </a>
-            <a href="https://app.emailonacid.com/shared-preview/yetADBf5Nm">
+            {/* <a href="https://app.emailonacid.com/shared-preview/yetADBf5Nm">
               E-mail previews
-            </a>
+            </a> */}
           </li>                  
         </ul>
       </MainContainer>
