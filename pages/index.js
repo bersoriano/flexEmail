@@ -27,15 +27,31 @@ export default function Home() {
             <a href="https://app.emailonacid.com/shared-preview/JUa4MJ0ioo">
               E-mail previews
             </a>            
-          </li>            
+          </li> 
+          <li>
+            <a href="/templates/hand3.html">
+              Template 1 - B
+            </a>
+            <a href="https://app.emailonacid.com/shared-preview/JUa4MJ0ioo">
+              E-mail previews
+            </a>            
+          </li>                      
           <li>
             <a href="/templates/calendar.html">
-              Template 2
+              Template 2 - A
             </a>
             <a href="https://app.emailonacid.com/shared-preview/yetADBf5Nm">
               E-mail previews
             </a>
-          </li>        
+          </li> 
+          <li>
+            <a href="/templates/calendar2.html">
+              Template 2 - B
+            </a>
+            <a href="https://app.emailonacid.com/shared-preview/yetADBf5Nm">
+              E-mail previews
+            </a>
+          </li>                  
         </ul>
       </MainContainer>
       <footer>
