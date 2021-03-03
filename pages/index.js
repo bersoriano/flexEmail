@@ -16,7 +16,7 @@ export default function Home() {
             <a href="/templates/Clarion Financial Freedom.html">Clarion Financial Freedom</a>
             <a href="https://app.emailonacid.com/shared-preview/9bBlWCIdNe">Testing</a>
           </li>
-          {/* <li><a href="/templates/Clarion Flex Premium Email 2.html">Clarion Flex Premium Email 2</a></li> */}
+          <li><a href="/templates/Clarion Flex Premium Email 2.html">Clarion Flex Premium Email 2</a></li>
         </ul>
       </MainContainer>
       <footer>
