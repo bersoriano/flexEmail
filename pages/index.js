@@ -14,7 +14,7 @@ export default function Home() {
         <ul>
           <li>
             <a href="/templates/hand1.html">
-              Clarion Financial Freedom
+              Template 1
             </a>
             <a href="https://app.emailonacid.com/shared-preview/It4iZ1lQ6O">
               E-mail previews
@@ -22,17 +22,20 @@ export default function Home() {
           </li>
           <li>
             <a href="/templates/hand2.html">
-              Clarion Flex Premium Email 2
+              Template 1 - A
+            </a>
+            <a href="https://app.emailonacid.com/shared-preview/JUa4MJ0ioo">
+              E-mail previews
+            </a>            
+          </li>            
+          <li>
+            <a href="/templates/calendar.html">
+              Template 2
             </a>
             <a href="https://app.emailonacid.com/shared-preview/yetADBf5Nm">
               E-mail previews
             </a>
-          </li>
-          <li>
-            <a href="/templates/hand3.html">
-              Clarion Flex Premium Email 2
-            </a>
-          </li>          
+          </li>        
         </ul>
       </MainContainer>
       <footer>
