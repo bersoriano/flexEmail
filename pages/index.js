@@ -1,22 +1,38 @@
-import Head from 'next/head';
-import Header from '../components/Header';
-import MainContainer from '../components/Main';
+import Head from "next/head";
+import Header from "../components/Header";
+import MainContainer from "../components/Main";
 export default function Home() {
   return (
     <div className="container">
       <Head>
-          <title>Flex Email Templates</title>
-          <link rel="icon" href="/favicon.ico" />
+        <title>Flex Email Templates</title>
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header></Header>
       <MainContainer>
-        <h2>Templates:</h2>
+        <h2>Templates & Testing Previews</h2>
         <ul>
           <li>
-            <a href="/templates/Clarion Financial Freedom.html">Clarion Financial Freedom</a>
-            <a href="https://app.emailonacid.com/shared-preview/9bBlWCIdNe">Testing</a>
+            <a href="/templates/hand1.html">
+              Clarion Financial Freedom
+            </a>
+            <a href="https://app.emailonacid.com/shared-preview/It4iZ1lQ6O">
+              E-mail previews
+            </a>
           </li>
-          <li><a href="/templates/Clarion Flex Premium Email 2.html">Clarion Flex Premium Email 2</a></li>
+          <li>
+            <a href="/templates/hand2.html">
+              Clarion Flex Premium Email 2
+            </a>
+            <a href="https://app.emailonacid.com/shared-preview/yetADBf5Nm">
+              E-mail previews
+            </a>
+          </li>
+          <li>
+            <a href="/templates/hand3.html">
+              Clarion Flex Premium Email 2
+            </a>
+          </li>          
         </ul>
       </MainContainer>
       <footer>
@@ -34,19 +50,21 @@ export default function Home() {
           min-height: 100vh;
           display: flex;
           flex-direction: column;
-          justify-content: center;       
-        }
-        ul {
-
+          justify-content: center;
         }
         ul li {
           display: flex;
           flex-direction: row;
-          padding: 0;
+          padding: .5em 0;
           margin: 0;
+          border-bottom: 1px solid #e9e9e9;
+        }
+        ul li:hover {
+          background-color: #e9e9e9;
         }
         ul li a {
           margin: 1em 1em 0 0em;
+          min-width: 400px;
         }
         footer {
           width: 100%;
@@ -104,5 +122,5 @@ export default function Home() {
         }
       `}</style>
     </div>
-  )
+  );
 }
