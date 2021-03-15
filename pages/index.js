@@ -5,53 +5,21 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Flex Email Templates</title>
+        <title>March Templates</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header></Header>
       <MainContainer>
-        <h2>Templates & Testing Previews</h2>
+        <h2>March Templates</h2>
         <ul>
           <li>
-            <a href="/templates/hand1.html">
+            <a href="/templates/march/flexBasic.html">
               Template 1
             </a>
-            <a href="https://app.emailonacid.com/shared-preview/It4iZ1lQ6O">
+            {/* <a href="https://app.emailonacid.com/shared-preview/It4iZ1lQ6O">
               E-mail previews
-            </a>
-          </li>
-          <li>
-            <a href="/templates/hand2.html">
-              Template 1 - A
-            </a>
-            <a href="https://app.emailonacid.com/shared-preview/JUa4MJ0ioo">
-              E-mail previews
-            </a>            
-          </li> 
-          <li>
-            <a href="/templates/hand3.html">
-              Template 1 - B
-            </a>
-            <a href="https://app.emailonacid.com/shared-preview/p50ddCBncy">
-              E-mail previews
-            </a>            
-          </li>                      
-          <li>
-            <a href="/templates/calendar.html">
-              Template 2 - A
-            </a>
-            <a href="https://app.emailonacid.com/shared-preview/yetADBf5Nm">
-              E-mail previews
-            </a>
-          </li> 
-          <li>
-            <a href="/templates/calendar2.html">
-              Template 2 - B
-            </a>
-            <a href="https://app.emailonacid.com/shared-preview/OVWgncJ6I6">
-              E-mail previews
-            </a>
-          </li>                  
+            </a> */}
+          </li>                 
         </ul>
       </MainContainer>
       <footer>
