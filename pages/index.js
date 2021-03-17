@@ -27,12 +27,20 @@ export default function Home() {
             {/* <a href="https://app.emailonacid.com/shared-preview/It4iZ1lQ6O">
               E-mail previews
             </a> */}
-          </li> 
-          {/* <li>
-            <a href="/templates/march/template3/premium1.html">
-              Template 3
+          </li>                                   
+        </ul>
+        <h3>Premium Templates</h3> 
+        <ul>
+          <li>
+            <a href="/templates/march/template3/flexPremium.html">
+              Template 1 - Premium
             </a>
-          </li>                                      */}
+          </li>   
+          <li>
+            <a href="/templates/march/template4/flexPremium2.html">
+              Template 2 - Premium
+            </a>
+          </li>                      
         </ul>
       </MainContainer>
       <footer>
