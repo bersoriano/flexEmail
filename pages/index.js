@@ -40,7 +40,17 @@ export default function Home() {
             <a href="/templates/march/template4/flexPremium2.html">
               Template 2 - Premium
             </a>
-          </li>                      
+          </li>  
+          <li>
+            <a href="/templates/march/template5/flexPremium3.html">
+              Template 3 - Premium
+            </a>
+          </li>  
+          <li>
+            <a href="/templates/march/template6/flexPremium4.html">
+              Template 4 - Premium
+            </a>
+          </li>                                          
         </ul>
       </MainContainer>
       <footer>
