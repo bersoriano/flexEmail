@@ -16,17 +16,17 @@ export default function Home() {
             <a href="/templates/march/template1/flexBasic.html">
               Template 1
             </a>
-            {/* <a href="https://app.emailonacid.com/shared-preview/It4iZ1lQ6O">
+            <a href="https://app.emailonacid.com/shared-preview/3EgWEC41v2">
               E-mail previews
-            </a> */}
+            </a>
           </li>     
           <li>
             <a href="/templates/march/template2/flexBasic2.html">
               Template 2
             </a>
-            {/* <a href="https://app.emailonacid.com/shared-preview/It4iZ1lQ6O">
+            <a href="https://app.emailonacid.com/shared-preview/IBQKrF2nYW">
               E-mail previews
-            </a> */}
+            </a>
           </li>                                   
         </ul>
         <h3>Premium Templates</h3> 
