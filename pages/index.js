@@ -24,7 +24,7 @@ export default function Home() {
             <a href="/templates/march/template2/flexBasic2.html">
               Template 2
             </a>
-            <a href="https://app.emailonacid.com/shared-preview/DvtLyw7n6C">
+            <a href="https://app.emailonacid.com/app/precheck/display/summary/eIwFeu3r5m">
               E-mail previews
             </a>
           </li>                                   
@@ -35,33 +35,33 @@ export default function Home() {
             <a href="/templates/march/template3/flexPremium.html">
               Template 1 - Premium
             </a>
-            {/* <a href="https://app.emailonacid.com/shared-preview/SbmL53sdi0">
+            <a href="https://app.emailonacid.com/shared-preview/SbmL53sdi0">
               E-mail previews
-            </a>             */}
+            </a>            
           </li>   
           <li>
             <a href="/templates/march/template4/flexPremium2.html">
               Template 2 - Premium
             </a>
-            {/* <a href="https://app.emailonacid.com/shared-preview/8EFodEUxBS">
+            <a href="https://app.emailonacid.com/shared-preview/8EFodEUxBS">
               E-mail previews
-            </a>              */}
+            </a>             
           </li>  
           <li>
             <a href="/templates/march/template5/flexPremium3.html">
               Template 3 - Premium
             </a>
-            {/* <a href="https://app.emailonacid.com/shared-preview/tTqvJb0Khq">
+            <a href="https://app.emailonacid.com/shared-preview/tTqvJb0Khq">
               E-mail previews
-            </a>                          */}
+            </a>                         
           </li>  
           <li>
             <a href="/templates/march/template6/flexPremium4.html">
               Template 4 - Premium
             </a>
-            {/* <a href="https://app.emailonacid.com/shared-preview/nGz97GvixM">
+            <a href="https://app.emailonacid.com/shared-preview/nGz97GvixM">
               E-mail previews
-            </a>             */}
+            </a>            
           </li>                                          
         </ul>
       </MainContainer>
