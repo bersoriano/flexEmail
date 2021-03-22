@@ -13,7 +13,7 @@ export default function Home() {
         <h2>March Templates</h2>
         <ul>
           <li>
-            <a href="/templates/march/template1/flexBasic.html">
+            <a href="/templates/march/template1/Do More Email 1.html">
               Template 1
             </a>
             <a href="https://app.emailonacid.com/shared-preview/TNFN2RNk6O">
@@ -21,7 +21,7 @@ export default function Home() {
             </a>
           </li>     
           <li>
-            <a href="/templates/march/template2/flexBasic2.html">
+            <a href="/templates/march/template2/Do More Email 2.html">
               Template 2
             </a>
             <a href="https://app.emailonacid.com/shared-preview/85NNSLgz4s">
