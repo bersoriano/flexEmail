@@ -24,7 +24,7 @@ export default function Home() {
             <a href="/templates/march/template2/flexBasic2.html">
               Template 2
             </a>
-            <a href="https://app.emailonacid.com/app/precheck/display/summary/y43PoAJNle">
+            <a href="https://app.emailonacid.com/shared-preview/85NNSLgz4s">
               E-mail previews
             </a>
           </li>                                   
