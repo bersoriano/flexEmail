@@ -35,7 +35,7 @@ export default function Home() {
             <a href="/templates/march/template3/flexPremium.html">
               Template 1 - Premium
             </a>
-            <a href="https://app.emailonacid.com/shared-preview/SbmL53sdi0">
+            <a href="https://app.emailonacid.com/shared-preview/vT12OvaGRw">
               E-mail previews
             </a>            
           </li>   
@@ -43,7 +43,7 @@ export default function Home() {
             <a href="/templates/march/template4/flexPremium2.html">
               Template 2 - Premium
             </a>
-            <a href="https://app.emailonacid.com/shared-preview/8EFodEUxBS">
+            <a href="https://app.emailonacid.com/shared-preview/UjGDAS4lyK">
               E-mail previews
             </a>             
           </li>  
@@ -51,7 +51,7 @@ export default function Home() {
             <a href="/templates/march/template5/flexPremium3.html">
               Template 3 - Premium
             </a>
-            <a href="https://app.emailonacid.com/shared-preview/tTqvJb0Khq">
+            <a href="https://app.emailonacid.com/shared-preview/Jj7vjT8q08">
               E-mail previews
             </a>                         
           </li>  
@@ -59,7 +59,7 @@ export default function Home() {
             <a href="/templates/march/template6/flexPremium4.html">
               Template 4 - Premium
             </a>
-            <a href="https://app.emailonacid.com/shared-preview/nGz97GvixM">
+            <a href="https://app.emailonacid.com/shared-preview/x6QY2XtBe0">
               E-mail previews
             </a>            
           </li>                                          
