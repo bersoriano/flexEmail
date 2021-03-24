@@ -56,7 +56,7 @@ export default function Home() {
             </a>                         
           </li>  
           <li>
-            <a href="/templates/march/template6/flexPremium4.html">
+            <a href="/templates/march/template6/flexpremium4.html">
               Template 4 - Premium.
             </a>
             <a href="https://app.emailonacid.com/shared-preview/x6QY2XtBe0">
