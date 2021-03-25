@@ -27,7 +27,23 @@ export default function Home() {
             <a href="https://app.emailonacid.com/shared-preview/85NNSLgz4s">
               E-mail previews
             </a>
-          </li>                                   
+          </li>  
+          <li>
+            <a href="/templates/march/template7/template7.html">
+              Survey Template
+            </a>
+            {/* <a href="/templates/march/template7/template7.html">
+              E-mail previews
+            </a> */}
+          </li> 
+          <li>
+            <a href="/templates/march/template8/all-set-confirmation.html">
+              Asset Email Confirmation
+            </a>
+            {/* <a href="https://app.emailonacid.com/shared-preview/85NNSLgz4s">
+              E-mail previews
+            </a> */}
+          </li>                                                       
         </ul>
         <h3>Premium Templates</h3> 
         <ul>
@@ -62,8 +78,9 @@ export default function Home() {
             <a href="https://app.emailonacid.com/shared-preview/x6QY2XtBe0">
               E-mail previews
             </a>            
-          </li>                                          
+          </li>                                                  
         </ul>
+
       </MainContainer>
       <footer>
         {/* <a
