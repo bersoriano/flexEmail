@@ -17,6 +17,31 @@ export default function Home() {
                 title="Inline Frame Example"
                 width="600"
                 height="700"
+                src="https://flex-email.vercel.app/templates/march/template9/template9-austin.html">
+            </iframe>                              
+          </li>
+          <li>
+            <iframe id="inlineFrameExample"
+                title="Inline Frame Example"
+                width="600"
+                height="700"
+                src="https://flex-email.vercel.app/templates/march/template9/template9-charlotte.html">
+            </iframe>                              
+          </li>
+          <li>
+            <iframe id="inlineFrameExample"
+                title="Inline Frame Example"
+                width="600"
+                height="700"
+                src="https://flex-email.vercel.app/templates/march/template9/template9-santonio.html">
+            </iframe>                              
+          </li>          
+
+          <li>
+            <iframe id="inlineFrameExample"
+                title="Inline Frame Example"
+                width="600"
+                height="700"
                 src="https://flex-email.vercel.app/templates/march/template1/Do%20More%20Email%201.html">
             </iframe>                              
           </li>
