@@ -9,7 +9,6 @@ export default function MainContainer(props) {
                     display: flex;
                     flex-direction: column;
                     width: 100%;
-                    max-width: 1100px;
                     margin: 1em auto;
                     border-radius: .5em;        
                 }            

@@ -10,8 +10,79 @@ export default function Home() {
       </Head>
       <Header></Header>
       <MainContainer>
-        <h2>March Templates</h2>
-        <ul>
+      <h2>Non Premium templates</h2>
+        <ul className="template-container">
+          <li>
+            <iframe id="inlineFrameExample"
+                title="Inline Frame Example"
+                width="600"
+                height="700"
+                src="https://flex-email.vercel.app/templates/march/template1/Do%20More%20Email%201.html">
+            </iframe>                              
+          </li>
+          <li>
+            <iframe id="inlineFrameExample"
+                title="Inline Frame Example"
+                width="600"
+                height="700"
+                src="https://flex-email.vercel.app/templates/march/template2/Do%20More%20Email%202.html">
+            </iframe>                              
+          </li>
+          <li>
+            <iframe id="inlineFrameExample"
+                title="Inline Frame Example"
+                width="600"
+                height="700"
+                src="https://flex-email.vercel.app/templates/march/template7/template7.html">
+            </iframe>                              
+          </li> 
+          <li>
+            <iframe id="inlineFrameExample"
+                title="Inline Frame Example"
+                width="600"
+                height="700"
+                src="https://flex-email.vercel.app/templates/march/template8/all-set-confirmation.html">
+            </iframe>                              
+          </li>                                  
+        </ul>        
+
+        <h2>Premium Templates</h2>
+
+        <ul className="template-container">
+          <li>
+            <iframe id="inlineFrameExample"
+                title="Inline Frame Example"
+                width="600"
+                height="700"
+                src="https://flex-email.vercel.app/templates/march/template3/flexPremium.html">
+            </iframe>                              
+          </li>
+          <li>
+            <iframe id="inlineFrameExample"
+                title="Inline Frame Example"
+                width="600"
+                height="700"
+                src="https://flex-email.vercel.app/templates/march/template4/flexPremium2.html">
+            </iframe>                              
+          </li>
+          <li>
+            <iframe id="inlineFrameExample"
+                title="Inline Frame Example"
+                width="600"
+                height="700"
+                src="https://flex-email.vercel.app/templates/march/template5/flexPremium3.html">
+            </iframe>                              
+          </li> 
+          <li>
+            <iframe id="inlineFrameExample"
+                title="Inline Frame Example"
+                width="600"
+                height="700"
+                src="https://flex-email.vercel.app/templates/march/template6/flexpremium4.html">
+            </iframe>                              
+          </li>                                  
+        </ul>
+        {/* <ul>
           <li>
             <a href="/templates/march/template1/Do More Email 1.html">
               Template 1
@@ -32,20 +103,16 @@ export default function Home() {
             <a href="/templates/march/template7/template7.html">
               Survey Template
             </a>
-            {/* <a href="/templates/march/template7/template7.html">
-              E-mail previews
-            </a> */}
+
           </li> 
           <li>
             <a href="/templates/march/template8/all-set-confirmation.html">
               Asset Email Confirmation
             </a>
-            {/* <a href="https://app.emailonacid.com/shared-preview/85NNSLgz4s">
-              E-mail previews
-            </a> */}
+
           </li>                                                       
-        </ul>
-        <h3>Premium Templates</h3> 
+        </ul> */}
+        {/* <h3>Premium Templates</h3> 
         <ul>
           <li>
             <a href="/templates/march/template3/flexPremium.html">
@@ -79,31 +146,45 @@ export default function Home() {
               E-mail previews
             </a>            
           </li>                                                  
-        </ul>
+        </ul> */}
 
       </MainContainer>
       <footer>
-        {/* <a
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span>@bersoriano</span>
-        </a> */}
       </footer>
 
       <style jsx>{`
+
+        h2 {
+          text-align: center;
+          margin: 1em 0;
+          font-size: 2em;
+        }
         .container {
           min-height: 100vh;
           display: flex;
           flex-direction: column;
           justify-content: center;
         }
+        ul {
+          display: flex;
+          width: 80vw;
+          max-width: 80vw;
+          overflow-x: scroll;
+          margin: 0 auto;          
+        }
+        ul li.template-container {
+          display: flex;
+          width: 80vw;
+          max-width: 80vw;
+          overflow-x: scroll;
+          margin: 0 auto;      
+        }
         ul li {
           display: flex;
           flex-direction: row;
           padding: .5em 0;
-          margin: 0;
+          max-width: 600px;
+          margin: 0 1em;
           border-bottom: 1px solid #e9e9e9;
         }
         ul li:hover {
