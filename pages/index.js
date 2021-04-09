@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Header from "../components/Header";
 import MainContainer from "../components/Main";
+import Link from '../components/Link';
 export default function Home() {
   return (
     <div className="container">
@@ -13,6 +14,7 @@ export default function Home() {
         <h2>April Email</h2>
         <ul className="template-container">
           <li>
+            <Link className="link" label="EOA testing link" url="https://app.emailonacid.com/shared-preview/zQrA2OyKcg"></Link>
             <iframe
               id="inlineFrameExample"
               title="Inline Frame Example"
@@ -22,6 +24,7 @@ export default function Home() {
             ></iframe>
           </li>
           <li>
+            <Link className="link" label="EOA testing link" url="https://app.emailonacid.com/shared-preview/eR2RlVCWWc"></Link>
             <iframe
               id="inlineFrameExample"
               title="Inline Frame Example"
@@ -31,6 +34,7 @@ export default function Home() {
             ></iframe>
           </li>
           <li>
+            <Link className="link" label="EOA testing link" url="https://app.emailonacid.com/precheck/shared-preview/zWSFWhv0Oc"></Link>            
             <iframe
               id="inlineFrameExample"
               title="Inline Frame Example"
@@ -178,19 +182,15 @@ export default function Home() {
         }
         ul li {
           display: flex;
-          flex-direction: row;
+          flex-direction: column;
           padding: 0.5em 0;
           max-width: 600px;
           margin: 0 1em;
           border-bottom: 1px solid #e9e9e9;
         }
-        ul li:hover {
-          background-color: #e9e9e9;
-        }
-        ul li a {
-          margin: 1em 1em 0 0em;
-          min-width: 400px;
-        }
+        .link {
+          margin-bottom: 1rem;
+        }        
         footer {
           width: 100%;
           height: 100px;

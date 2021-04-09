@@ -6,7 +6,7 @@ export default function Button (props) {
       {props.label}
       <style jsx>{`
         button {
-            background-color: orange;
+          background-color: orange;
           padding: 1em;
           border: none;
           text-transform: uppercase;
