@@ -159,9 +159,11 @@ export default function Home() {
 
       <style jsx>{`
         h2 {
-          text-align: center;
-          margin: 1em 0;
+          text-align: left;
+          margin: 2em auto;
           font-size: 2em;
+          max-width: 1100px;
+          width: 100%;
         }
         .container {
           min-height: 100vh;
