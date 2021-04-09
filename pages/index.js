@@ -14,7 +14,8 @@ export default function Home() {
         <h2>April Email</h2>
         <ul className="template-container">
           <li>
-            <Link className="link" label="EOA testing link" url="https://app.emailonacid.com/shared-preview/zQrA2OyKcg"></Link>
+            <Link className="link" label="Template View" url="https://flex-email.vercel.app/templates/april/template1/template1.html"></Link>
+            <Link className="template" label="EOA testing link" url="https://app.emailonacid.com/shared-preview/zQrA2OyKcg"></Link>
             <iframe
               id="inlineFrameExample"
               title="Inline Frame Example"
@@ -24,7 +25,8 @@ export default function Home() {
             ></iframe>
           </li>
           <li>
-            <Link className="link" label="EOA testing link" url="https://app.emailonacid.com/shared-preview/eR2RlVCWWc"></Link>
+            <Link className="link" label="Template View" url="https://flex-email.vercel.app/templates/april/template2/template2.html"></Link>            
+            <Link className="template" label="EOA testing link" url="https://app.emailonacid.com/shared-preview/eR2RlVCWWc"></Link>
             <iframe
               id="inlineFrameExample"
               title="Inline Frame Example"
@@ -34,7 +36,8 @@ export default function Home() {
             ></iframe>
           </li>
           <li>
-            <Link className="link" label="EOA testing link" url="https://app.emailonacid.com/precheck/shared-preview/zWSFWhv0Oc"></Link>            
+            <Link className="link" label="Template View" url="https://flex-email.vercel.app/templates/april/template3/template3.html"></Link>            
+            <Link className="template" label="EOA testing link" url="https://app.emailonacid.com/precheck/shared-preview/zWSFWhv0Oc"></Link>            
             <iframe
               id="inlineFrameExample"
               title="Inline Frame Example"

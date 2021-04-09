@@ -3,7 +3,6 @@ export default function Link (props) {
       {props.label}
       <style jsx>{`
         a {
-          background-color: #644aac;
           padding: 1em;
           border: none;
           text-transform: uppercase;
@@ -13,10 +12,17 @@ export default function Link (props) {
           margin-bottom: 1rem;
           opacity: 1;
           transition: .5s;
+          border-radius: 7px;
         }
         a:hover {
             transition: .5s;
             opacity: .8;
+        }
+        a.link {
+            background-color: #644aac;
+        }
+        a.template {
+            background-color: orange;            
         }
       `}</style>
     </a>
