@@ -11,6 +11,22 @@ export default function Home() {
       </Head>
       <Header></Header>
       <MainContainer>
+        <h2>Widgets April</h2>
+
+        <div className="dumb-container">
+          <div className="floating-info">
+            <div className="left-col">
+              <span>Rent better with Flex. Smaller, stress-free payments that work with your budget.</span>
+              <span>Available for all residents.</span>
+              <button className="flex-btn">Download Flex</button>
+            </div>
+            <div className="right-col">
+              <img src="https://getflex.com/wp-content/uploads/2021/03/flex-logo-4.png"></img>
+            </div>
+          </div>
+        </div>
+
+
         <h2>April Email</h2>
         <ul className="template-container">
           <li>
@@ -154,10 +170,71 @@ export default function Home() {
             ></iframe>
           </li>
         </ul>
+ 
       </MainContainer>
       <footer></footer>
 
       <style jsx>{`
+
+        .dumb-container {
+          display: flex;
+          max-width: 400px;
+          max-width: 1100px;    
+          margin: 1.5rem auto;               
+        }
+
+        .floating-info {
+          min-width: 300px;
+          background-color: #644aac;
+          padding: 2rem;
+          display: flex;
+          flex-direction: row;
+          color: white;
+          border-radius: 1rem;
+          font-size: 2rem;
+        }
+        .left-col {
+          flex: 1.5;
+          display: flex;
+          flex-direction: column;
+        }
+        .left-col .flex-btn {
+          margin: 2rem auto 2rem 0;
+        }
+        .right-col {
+          flex: 1;
+          display: flex;
+        }
+        .right-col img {
+          max-height: 54px;
+          margin: auto 1rem 1rem auto;
+        }
+
+        .floating-info span {
+          margin: 1rem;
+        }
+
+        .flex-btn {
+          font-size: 1.3rem;
+          outline: none;
+          border: 1px solid black;
+          background: white;
+          border-radius: 4px;
+          font-weight: 600;
+          line-height: 1.4;
+          text-align: center;
+          letter-spacing: .08em;
+          text-transform: uppercase;
+          color: black;
+          padding: 12px 68px;
+          display: inline-block;
+          text-decoration: none;          
+        }
+
+        .flex-btn:hover {
+          opacity: .8;
+        }
+
         h2 {
           text-align: left;
           margin: 2em auto;
