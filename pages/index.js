@@ -25,7 +25,6 @@ export default function Home() {
           </div>
         </div>
 
-
         <h2>April Email</h2>
         <ul className="template-container">
           <li>
@@ -37,7 +36,17 @@ export default function Home() {
               height="700"
               src="https://flex-email.vercel.app/templates/april/template4/template4.html"
             ></iframe>
-          </li>          
+          </li>   
+          <li>
+            <Link className="link" label="Template View" url="https://flex-email.vercel.app/templates/april/template5/template5.html"></Link>
+            <iframe
+              id="inlineFrameExample"
+              title="Inline Frame Example"
+              width="600"
+              height="700"
+              src="https://flex-email.vercel.app/templates/april/template5/template5.html"
+            ></iframe>
+          </li>                    
           <li>
             <Link className="link" label="Template View" url="https://flex-email.vercel.app/templates/april/template1/template1.html"></Link>
             <Link className="template" label="EOA testing link" url="https://app.emailonacid.com/shared-preview/zQrA2OyKcg"></Link>
