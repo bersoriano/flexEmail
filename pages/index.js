@@ -48,15 +48,25 @@ export default function Home() {
             ></iframe>
           </li>
           <li>
-            <Link className="link" label="Template View" url="https://flex-email.vercel.app/templates/april/template7/template8.html"></Link>
+            <Link className="link" label="Template View" url="https://flex-email.vercel.app/templates/april/template8/template8.html"></Link>
             <iframe
               id="inlineFrameExample"
               title="Inline Frame Example"
               width="600"
               height="700"
-              src="https://flex-email.vercel.app/templates/april/template7/template8.html"
+              src="https://flex-email.vercel.app/templates/april/template8/template8.html"
             ></iframe>
-          </li>                       
+          </li> 
+          <li>
+            <Link className="link" label="Template View" url="https://flex-email.vercel.app/templates/april/template9/template9.html"></Link>
+            <iframe
+              id="inlineFrameExample"
+              title="Inline Frame Example"
+              width="600"
+              height="700"
+              src="https://flex-email.vercel.app/templates/april/template9/template9.html"
+            ></iframe>
+          </li>                                 
         </ul>
         <h2>April non Premium Email</h2>
         <ul className="template-container">
