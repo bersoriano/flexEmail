@@ -12,13 +12,12 @@ export default function Home() {
       <Header></Header>
       <MainContainer>
         <h2>Widgets April</h2>
-
         <div className="dumb-container">
           <div className="floating-info">
             <div className="left-col">
-              <span>Rent better with Flex. Smaller, stress-free payments that work with your budget.</span>
-              <span>Available for all residents.</span>
-              <button className="flex-btn">Download Flex</button>
+              <span><strong>Simply a smarter way to pay rent.</strong></span>
+              <span>Split your rent into smaller, stress-free payments today.Available for all residents.</span>
+              <button className="flex-btn">Get Flex</button>
             </div>
             <div className="right-col">
               <img src="https://getflex.com/wp-content/uploads/2021/03/flex-logo-4.png"></img>
@@ -29,6 +28,16 @@ export default function Home() {
 
         <h2>April Email</h2>
         <ul className="template-container">
+          <li>
+            <Link className="link" label="Template View" url="https://flex-email.vercel.app/templates/april/template4/template4.html"></Link>
+            <iframe
+              id="inlineFrameExample"
+              title="Inline Frame Example"
+              width="600"
+              height="700"
+              src="https://flex-email.vercel.app/templates/april/template4/template4.html"
+            ></iframe>
+          </li>          
           <li>
             <Link className="link" label="Template View" url="https://flex-email.vercel.app/templates/april/template1/template1.html"></Link>
             <Link className="template" label="EOA testing link" url="https://app.emailonacid.com/shared-preview/zQrA2OyKcg"></Link>
