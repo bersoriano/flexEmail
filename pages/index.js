@@ -16,7 +16,7 @@ export default function Home() {
           <div className="floating-info">
             <div className="left-col">
               <span><strong>Simply a smarter way to pay rent.</strong></span>
-              <span>Split your rent into smaller, stress-free payments today.Available for all residents.</span>
+              <span>Split your rent into smaller, stress-free payments today. Available for all residents.</span>
               <button className="flex-btn">Get Flex</button>
             </div>
             <div className="right-col">
@@ -25,7 +25,40 @@ export default function Home() {
           </div>
         </div>
 
-        <h2>April Email</h2>
+        <h2>April Premium Email</h2>
+        <ul className="template-container">
+          <li>
+            <Link className="link" label="Template View" url="https://flex-email.vercel.app/templates/april/template6/template6.html"></Link>
+            <iframe
+              id="inlineFrameExample"
+              title="Inline Frame Example"
+              width="600"
+              height="700"
+              src="https://flex-email.vercel.app/templates/april/template6/template6.html"
+            ></iframe>
+          </li>  
+          <li>
+            <Link className="link" label="Template View" url="https://flex-email.vercel.app/templates/april/template7/template7.html"></Link>
+            <iframe
+              id="inlineFrameExample"
+              title="Inline Frame Example"
+              width="600"
+              height="700"
+              src="https://flex-email.vercel.app/templates/april/template7/template7.html"
+            ></iframe>
+          </li>
+          <li>
+            <Link className="link" label="Template View" url="https://flex-email.vercel.app/templates/april/template7/template8.html"></Link>
+            <iframe
+              id="inlineFrameExample"
+              title="Inline Frame Example"
+              width="600"
+              height="700"
+              src="https://flex-email.vercel.app/templates/april/template7/template8.html"
+            ></iframe>
+          </li>                       
+        </ul>
+        <h2>April non Premium Email</h2>
         <ul className="template-container">
           <li>
             <Link className="link" label="Template View" url="https://flex-email.vercel.app/templates/april/template4/template4.html"></Link>
@@ -46,27 +79,7 @@ export default function Home() {
               height="700"
               src="https://flex-email.vercel.app/templates/april/template5/template5.html"
             ></iframe>
-          </li>   
-          <li>
-            <Link className="link" label="Template View" url="https://flex-email.vercel.app/templates/april/template6/template6.html"></Link>
-            <iframe
-              id="inlineFrameExample"
-              title="Inline Frame Example"
-              width="600"
-              height="700"
-              src="https://flex-email.vercel.app/templates/april/template6/template6.html"
-            ></iframe>
-          </li>  
-          <li>
-            <Link className="link" label="Template View" url="https://flex-email.vercel.app/templates/april/template7/template7.html"></Link>
-            <iframe
-              id="inlineFrameExample"
-              title="Inline Frame Example"
-              width="600"
-              height="700"
-              src="https://flex-email.vercel.app/templates/april/template7/template7.html"
-            ></iframe>
-          </li>                                        
+          </li>                                     
           <li>
             <Link className="link" label="Template View" url="https://flex-email.vercel.app/templates/april/template1/template1.html"></Link>
             <Link className="template" label="EOA testing link" url="https://app.emailonacid.com/shared-preview/zQrA2OyKcg"></Link>
