@@ -17,7 +17,7 @@ export default function Home() {
             <div className="left-col">
               <span><strong>Simply a smarter way to pay rent.</strong></span>
               <span>Split your rent into smaller, stress-free payments today. Available for all residents.</span>
-              <button className="flex-btn">Get Flex</button>
+              <a href="https://getflex.app.link/afwKZlFisfb" className="flex-btn">Get Flex</a>
             </div>
             <div className="right-col">
               <img src="https://getflex.com/wp-content/uploads/2021/03/flex-logo-4.png"></img>
@@ -235,7 +235,14 @@ export default function Home() {
       </MainContainer>
       <footer></footer>
 
+      <style jsx global> {
+        
+        `body { font-family: Work Sans, -apple-system, "Segoe UI", sans-serif;}`
+
+      }</style>
+
       <style jsx>{`
+
 
         .dumb-container {
           display: flex;
