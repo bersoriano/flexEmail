@@ -72,6 +72,7 @@ export default function Home() {
         <ul className="template-container">
           <li>
             <Link className="link" label="Template View" url="https://flex-email.vercel.app/templates/april/template4/template4.html"></Link>
+            <Link className="template" label="EOA testing link" url="https://app.emailonacid.com/shared-preview/dtMtf7cp0c"></Link>
             <iframe
               id="inlineFrameExample"
               title="Inline Frame Example"
@@ -82,6 +83,7 @@ export default function Home() {
           </li>   
           <li>
             <Link className="link" label="Template View" url="https://flex-email.vercel.app/templates/april/template5/template5.html"></Link>
+            <Link className="template" label="EOA testing link" url="https://app.emailonacid.com/shared-preview/CXzL8R8dA4"></Link>
             <iframe
               id="inlineFrameExample"
               title="Inline Frame Example"
