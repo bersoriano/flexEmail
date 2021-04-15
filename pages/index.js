@@ -2,6 +2,7 @@ import Head from "next/head";
 import Header from "../components/Header";
 import MainContainer from "../components/Main";
 import Link from '../components/Link';
+import Popup from '../components/Popup';
 export default function Home() {
   return (
     <div className="container">
@@ -12,6 +13,9 @@ export default function Home() {
       <Header></Header>
       <MainContainer>
         <h2>Widgets April</h2>
+
+        <Popup></Popup>
+
         <div className="dumb-container">
           <div className="floating-info">
             <div className="left-col">
@@ -72,7 +76,7 @@ export default function Home() {
         <ul className="template-container">
           <li>
             <Link className="link" label="Template View" url="https://flex-email.vercel.app/templates/april/template4/template4.html"></Link>
-            <Link className="template" label="EOA testing link" url="https://app.emailonacid.com/shared-preview/dtMtf7cp0c"></Link>
+            <Link className="template" label="EOA testing link" url="https://app.emailonacid.com/shared-preview/kvLSINK1i0"></Link>
             <iframe
               id="inlineFrameExample"
               title="Inline Frame Example"
@@ -83,7 +87,7 @@ export default function Home() {
           </li>   
           <li>
             <Link className="link" label="Template View" url="https://flex-email.vercel.app/templates/april/template5/template5.html"></Link>
-            <Link className="template" label="EOA testing link" url="https://app.emailonacid.com/shared-preview/CXzL8R8dA4"></Link>
+            <Link className="template" label="EOA testing link" url="https://app.emailonacid.com/shared-preview/2WEN3Rkdvi"></Link>
             <iframe
               id="inlineFrameExample"
               title="Inline Frame Example"
