@@ -75,8 +75,7 @@ export default function Home() {
         <h2>April non Premium Email</h2>
         <ul className="template-container">
           <li>
-            <Link className="link" label="Template View" url="https://flex-email.vercel.app/templates/april/template4/template4.html"></Link>
-            <Link className="template" label="EOA testing link" url="https://app.emailonacid.com/shared-preview/kvLSINK1i0"></Link>
+            <Link className="link" label="Template View" url="https://flex-email.vercel.app/templates/april/template10/template10.html"></Link>
             <iframe
               id="inlineFrameExample"
               title="Inline Frame Example"
