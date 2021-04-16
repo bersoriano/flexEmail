@@ -82,6 +82,17 @@ export default function Home() {
               title="Inline Frame Example"
               width="600"
               height="700"
+              src="https://flex-email.vercel.app/templates/april/template10/template10.html"
+            ></iframe>
+          </li>            
+          <li>
+            <Link className="link" label="Template View" url="https://flex-email.vercel.app/templates/april/template4/template4.html"></Link>
+            <Link className="template" label="EOA testing link" url="https://app.emailonacid.com/shared-preview/kvLSINK1i0"></Link>
+            <iframe
+              id="inlineFrameExample"
+              title="Inline Frame Example"
+              width="600"
+              height="700"
               src="https://flex-email.vercel.app/templates/april/template4/template4.html"
             ></iframe>
           </li>   
