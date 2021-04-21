@@ -1,8 +1,6 @@
 export default function Button (props) {
-    function subscribe(){
-        alert("Subscribed!")}
     return (
-    <button onClick={subscribe} className={props.className}>
+    <button onClick={props.onClick} className={props.className}>
       {props.label}
       <style jsx>{`
         button {

@@ -17,6 +17,7 @@ class MyDocument extends Document {
           <Main />
           <NextScript />
         </body>
+        <script src="./aprilPopup.js"></script>
       </Html>
     )
   }

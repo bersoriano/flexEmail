@@ -2,7 +2,6 @@ import Head from "next/head";
 import Header from "../components/Header";
 import MainContainer from "../components/Main";
 import Link from '../components/Link';
-import Popup from '../components/Popup';
 export default function Home() {
   return (
     <div className="container">
@@ -14,7 +13,7 @@ export default function Home() {
       <MainContainer>
         <h2>Widgets April</h2>
 
-        <Popup></Popup>
+        {/* <AprilPopup></AprilPopup> */}
 
         <div className="dumb-container">
           <div className="floating-info">

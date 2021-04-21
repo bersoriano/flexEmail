@@ -1,39 +1,11 @@
-import React, {useState} from 'react';
-export default function AprilPopup() {
-  let [showModal, setShowModal] = useState(false);
-
-  function handleClick(e) {
-    console.log("Closing");
-    console.log("showModal: ", showModal);
-  }
-
-  const onVisibilityChange = (visible) => {
-    setShowModal(visible);
-  }
-
-  return (
-    <div className="flex-popup flex-popup--visible">
-      <button onClick={handleClick} type="button" className="flex-popup__close"></button>
-
-      <div className="floating-info">
-        <div className="left-col">
-          <span>
-            <strong>Simply a smarter way to pay rent</strong>
-          </span>
-          <span className="copy">
-            Split your rent into smaller, stress-free payments today. Available
-            for all residents.
-          </span>
-          <a href="https://getflex.app.link/afwKZlFisfb" className="flex-btn">
-            Get Flex
-          </a>
-        </div>
-        <img className="flexLogo" src="https://getflex.com/wp-content/uploads/2021/03/flex-logo-4.png"></img>
-      </div>
-  
-
-      <style jsx>{`
-
+"use strict";
+document.addEventListener(
+  "DOMContentLoaded",
+  function () {
+    var t = document.createElement("style");
+    t.appendChild(
+      document.createTextNode(
+        `@import url(https://fonts.googleapis.com/css?family=Work+Sans:400,600&display=swap);
         .flexLogo {
           position: absolute;
           right: 0;
@@ -42,7 +14,7 @@ export default function AprilPopup() {
           margin: 4rem 2rem;          
         }
 
-        .copy {
+        .subTitle {
           font-size: 1.3rem;          
         }
 
@@ -112,9 +84,6 @@ export default function AprilPopup() {
           position: fixed;
           bottom: -300px;
           left: 30px;
-          -webkit-transition: bottom 0.33s ease-in-out;
-          -o-transition: bottom 0.33s ease-in-out;
-          transition: bottom 0.33s ease-in-out;
           flex-direction: column;
           z-index: 1;
         }
@@ -135,9 +104,6 @@ export default function AprilPopup() {
           padding: 12px 68px;
           display: inline-block;
           text-decoration: none;
-          -webkit-transition: background-color 0.15s ease-in-out;
-          -o-transition: background-color 0.15s ease-in-out;
-          transition: background-color 0.15s ease-in-out;
         }
         .flex-popup__link:hover {
           background: #432f6e;
@@ -156,12 +122,7 @@ export default function AprilPopup() {
           height: 30px;
           right: 0;
           position: absolute;
-          -webkit-transition: background-color 0.15s ease-in-out,
-            opacity 0.15s ease-in-out;
-          -o-transition: background-color 0.15s ease-in-out,
-            opacity 0.15s ease-in-out;
-          transition: background-color 0.15s ease-in-out,
-            opacity 0.15s ease-in-out;
+          opacity 0.15s ease-in-out;
           color: #3f3a41;
           pointer-events: none;
           margin: 2rem;
@@ -240,7 +201,63 @@ export default function AprilPopup() {
             margin: 1rem;            
           }
         }
-      `}</style>
-    </div>
-  );
-}
+
+        `
+      )
+    ),
+      document.head.appendChild(t);
+    var i = document.createElement("div");
+    (i.className = "flex-popup"),
+      (i.innerHTML =
+        `
+        <span style="display:none;" class="flex-popup--visible"></span>
+        <button type="button" class="flex-popup__close"></button>
+        <div class="floating-info">
+          <div class="left-col">
+            <span>
+              <strong>Simply a smarter way to pay rent</strong>
+            </span>
+            <span class="subTitle">
+              Split your rent into smaller, stress-free payments today. Available
+              for all residents.
+            </span>
+            <a href="https://getflex.app.link/afwKZlFisfb" class="flex-btn">
+              Get Flex
+            </a>
+          </div>
+          <img class="flexLogo" src="https://getflex.com/wp-content/uploads/2021/03/flex-logo-4.png"></img>
+        </div>
+        `  
+      )      
+      document.body.appendChild(i),
+      setTimeout(function () {
+        debugger;
+        //i.classList.add("flex-popup--visible");
+        if (sessionStorage.getItem('flex-modal-visible') !== undefined && sessionStorage.getItem('flex-modal-visible') !== null) {
+          if (sessionStorage.getItem('flex-modal-visible') === "true") {
+            i.classList.add("flex-popup--visible");
+          }
+          else {
+            i.classList.remove('flex-popup--visible');
+          }
+        }
+        else {
+            sessionStorage.setItem('flex-modal-visible',"true");
+            sessionStorage.getItem('flex-modal-visible') === "true" ? i.classList.add("flex-popup-visible") : i.classList.remove("flex-modal-visible"); ;
+        }
+      }, 1e3),
+      i.addEventListener("mouseover", function () {
+        i.classList.add("flex-popup--hovered");
+      }),
+      i.addEventListener("mouseleave", function () {
+        i.classList.remove("flex-popup--hovered");
+      }),
+      i
+        .querySelector(".flex-popup__close")
+        .addEventListener("click", function () {
+          sessionStorage.setItem('flex-modal-visible', "false");
+          i.classList.remove("flex-popup--visible");
+        });
+  },
+  !1
+);
