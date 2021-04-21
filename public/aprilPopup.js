@@ -15,40 +15,18 @@ document.addEventListener(
     }
     (i.className = "flex-popup"),
       (i.innerHTML =
-        `
-        <span style="display:none;" class="flex-popup--visible"></span>
-        <button type="button" class="flex-popup__close"></button>
-        <div class="floating-info">
-          <div class="left-col">
-            <span>
-              <strong>Simply a smarter way to pay rent!!</strong>
-            </span>
-            <span class="subTitle">
-              Split your rent into smaller, stress-free payments today. Available
-              for all residents.
-            </span>
-            <a href="https://getflex.app.link/afwKZlFisfb" class="flex-btn">
-              Get Flex
-            </a>
-          </div>
-          <img class="flexLogo" src="https://getflex.com/wp-content/uploads/2021/03/flex-logo-4.png"></img>
-        </div>
-        `  
+        `<span style="display:none;" class="flex-popup--visible"></span> <button type="button" class="flex-popup__close"></button> <div class="floating-info"> <div class="left-col"> <span> <strong>Simply a smarter way to pay rent!!</strong> </span> <span class="subTitle"> Split your rent into smaller, stress-free payments today. Available for all residents. </span> <a href="https://getflex.app.link/afwKZlFisfb" class="flex-btn"> Get Flex </a> </div> <img class="flexLogo" src="https://getflex.com/wp-content/uploads/2021/03/flex-logo-4.png"></img> </div>`  
       )      
       document.body.appendChild(i),
       setTimeout(function () {
-        //i.classList.add("flex-popup--visible");
         if (sessionStorage.getItem('flex-modal-visible') !== undefined && sessionStorage.getItem('flex-modal-visible') !== null) {
-          if (sessionStorage.getItem('flex-modal-visible') === "true") {
-            i.classList.add("flex-popup--visible");
-          } 
-          else {
-            i.classList.remove('flex-popup--visible');
-          }
+          sessionStorage.getItem('flex-modal-visible') === "true" ? 
+            i.classList.add("flex-popup--visible") 
+            : i.classList.remove('flex-popup--visible');            
         }
         else {
           sessionStorage.setItem('flex-modal-visible',"true");
-          sessionStorage.getItem('flex-modal-visible') === "true" ? i.classList.add("flex-popup--visible") : i.classList.remove("flex-modal-visible"); ;
+          i.classList.add("flex-popup--visible");
         }
       }, 1e3),
       i.addEventListener("mouseover", function () {
