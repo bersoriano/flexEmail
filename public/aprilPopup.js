@@ -19,7 +19,8 @@ document.addEventListener(
       )      
       document.body.appendChild(i),
       setTimeout(function () {
-        if (sessionStorage.getItem('flex-modal-visible') !== undefined || sessionStorage.getItem('flex-modal-visible') !== null) {
+        if (sessionStorage.getItem('flex-modal-visible') !== undefined 
+          && sessionStorage.getItem('flex-modal-visible') !== null) {
           sessionStorage.getItem('flex-modal-visible') === "true" ? 
             i.classList.add("flex-popup--visible") 
             : i.classList.remove('flex-popup--visible');            
