@@ -11,13 +11,12 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-            <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600" rel="stylesheet" media="screen" />
+          <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,600" rel="stylesheet" media="screen" />
         </Head>
         <body>
           <Main />
           <NextScript />
         </body>
-        <script src="./aprilPopup.js"></script>
       </Html>
     )
   }

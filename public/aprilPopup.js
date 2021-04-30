@@ -14,7 +14,7 @@ document.addEventListener(
       i.classList.add("flex-popup--visible");
     }
     (i.className = "flex-popup"),
-      (i.innerHTML = `</span> <button type="button" class="flex-popup__close"></button> <div class="floating-info"> <div class="left-col"> <span> <strong>Simply a smarter way to pay rent!!</strong> </span> <span class="subTitle"> Split your rent into smaller, stress-free payments today. Available for all residents. </span> <a href="https://getflex.app.link/afwKZlFisfb" id="flex-btn"> Get Flex </a> </div> <img class="flexLogo" src="https://getflex.com/wp-content/uploads/2021/03/flex-logo-4.png"></img> </div>`);
+      (i.innerHTML = `</span> <button type="button" class="flex-popup__close"></button> <div class="floating-info"> <div class="left-col"> <span> <strong>Simply a smarter way to pay rent!!</strong> </span> <span class="subTitle"> Split your rent into smaller, stress-free payments today. Available for all residents. </span> <a href="https://getflex.app.link/afwKZlFisfb" rel=“nofollow” id="flex-btn"> Get Flex </a> </div> <img class="flexLogo" src="https://getflex.com/wp-content/uploads/2021/03/flex-logo-4.png"></img> </div>`);
     document.body.appendChild(i),
       setTimeout(function () {
         if (
@@ -28,10 +28,11 @@ document.addEventListener(
           sessionStorage.setItem("flex-modal-visible", "true");
           i.classList.add("flex-popup--visible");
         }
-        console.log("Coming from:", window.location.hostname);
-        const incomingUrl = (()=> `https://getflex.app.link/${window.location.hostname}` )();
-        console.log("Generated IncomingUrl", incomingUrl);
-        document.getElementById("flex-btn").href = incomingUrl;
+
+        const pmc_partnername = _partner_name;
+        const partnerid = _partner_id;
+        var dynamicURL = (()=> `https://getflex.app.link/8PZc4g0ePfb?utm_source=${pmc_partnername}_${partnerid}&utm_medium=widget` )()
+        document.getElementById("flex-btn").href = dynamicURL;
       }, 1e3),
       i
         .querySelector(".flex-popup__close")
