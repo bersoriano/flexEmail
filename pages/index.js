@@ -11,6 +11,29 @@ export default function Home() {
       </Head>
       <Header></Header>
       <MainContainer>
+      <h2>May Email</h2>
+        <ul className="template-container">
+          <li>
+            <Link className="link" label="Template View" url="https://flex-email.vercel.app/templates/may/template1/template1.html"></Link>
+            <iframe
+              id="inlineFrameExample"
+              title="Inline Frame Example"
+              width="600"
+              height="700"
+              src="https://flex-email.vercel.app/templates/may/template1/template1.html"
+            ></iframe>
+          </li>
+          <li>
+            <Link className="link" label="Template View" url="https://flex-email.vercel.app/templates/may/template1/template1.html"></Link>
+            <iframe
+              id="inlineFrameExample"
+              title="Inline Frame Example"
+              width="600"
+              height="700"
+              src="https://flex-email.vercel.app/templates/may/template2/template2.html"
+            ></iframe>
+          </li>                    
+        </ul>        
         <h2>Widgets April</h2>
         {/* <AprilPopup></AprilPopup> */}
         <div className="dumb-container">
@@ -25,19 +48,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <h2>May Email</h2>
-        <ul className="template-container">
-          <li>
-            <Link className="link" label="Template View" url="https://flex-email.vercel.app/templates/may/template1/template1.html"></Link>
-            <iframe
-              id="inlineFrameExample"
-              title="Inline Frame Example"
-              width="600"
-              height="700"
-              src="https://flex-email.vercel.app/templates/may/template1/template1.html"
-            ></iframe>
-          </li>          
-        </ul>
         <h2>April Premium Email</h2>
         <ul className="template-container">
           <li>
