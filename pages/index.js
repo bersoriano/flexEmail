@@ -54,13 +54,13 @@ export default function Home() {
             ></iframe>
           </li> 
           <li>
-            <Link className="link" label="Template View" url="https://flex-email.vercel.app/templates/may/template4/template5.html"></Link>
+            <Link className="link" label="Template View" url="https://flex-email.vercel.app/templates/may/template5/template5.html"></Link>
             <iframe
               id="inlineFrameExample"
               title="Inline Frame Example"
               width="600"
               height="700"
-              src="https://flex-email.vercel.app/templates/may/template4/template5.html"
+              src="https://flex-email.vercel.app/templates/may/template5/template5.html"
             ></iframe>
           </li>                                                   
         </ul>        
