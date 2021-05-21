@@ -52,7 +52,17 @@ export default function Home() {
               height="700"
               src="https://flex-email.vercel.app/templates/may/template4/template4.html"
             ></iframe>
-          </li>                                         
+          </li> 
+          <li>
+            <Link className="link" label="Template View" url="https://flex-email.vercel.app/templates/may/template4/template5.html"></Link>
+            <iframe
+              id="inlineFrameExample"
+              title="Inline Frame Example"
+              width="600"
+              height="700"
+              src="https://flex-email.vercel.app/templates/may/template4/template5.html"
+            ></iframe>
+          </li>                                                   
         </ul>        
         <h2>Widgets April</h2>
         {/* <AprilPopup></AprilPopup> */}
