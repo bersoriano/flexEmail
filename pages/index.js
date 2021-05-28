@@ -14,6 +14,7 @@ export default function Home() {
       <h2>May Email</h2>
         <ul className="template-container">
           <li>
+            <Link className="template" label="EOA testing link" url="https://app.emailonacid.com/shared-preview/J0PlhPpZkI"></Link>
             <Link className="link" label="Template View" url="https://flex-email.vercel.app/templates/may/template1/template1.html"></Link>
             <iframe
               id="inlineFrameExample"
@@ -24,6 +25,7 @@ export default function Home() {
             ></iframe>
           </li>
           <li>
+            <Link className="template" label="EOA testing link" url="https://app.emailonacid.com/shared-preview/vC7XEbVvP2"></Link>
             <Link className="link" label="Template View" url="https://flex-email.vercel.app/templates/may/template2/template2.html"></Link>
             <iframe
               id="inlineFrameExample"
@@ -34,6 +36,7 @@ export default function Home() {
             ></iframe>
           </li> 
           <li>
+            <Link className="template" label="EOA testing link" url="https://app.emailonacid.com/shared-preview/FVHzKlj2Kq"></Link>
             <Link className="link" label="Template View" url="https://flex-email.vercel.app/templates/may/template3/template3.html"></Link>
             <iframe
               id="inlineFrameExample"
@@ -44,6 +47,7 @@ export default function Home() {
             ></iframe>
           </li>
           <li>
+            <Link className="template" label="EOA testing link" url="https://app.emailonacid.com/shared-preview/Zd3masucuW"></Link>            
             <Link className="link" label="Template View" url="https://flex-email.vercel.app/templates/may/template4/template4.html"></Link>
             <iframe
               id="inlineFrameExample"
@@ -54,6 +58,7 @@ export default function Home() {
             ></iframe>
           </li> 
           <li>
+            <Link className="template" label="EOA testing link" url="https://app.emailonacid.com/shared-preview/shc8tY4MIo"></Link>                        
             <Link className="link" label="Template View" url="https://flex-email.vercel.app/templates/may/template5/template5.html"></Link>
             <iframe
               id="inlineFrameExample"
