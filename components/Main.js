@@ -1,6 +1,6 @@
 export default function MainContainer(props) {
     return(
-        <main>
+        <main className="flex-main-container">
             <div>{props.children}</div>
             <style jsx>{`
                 main {
