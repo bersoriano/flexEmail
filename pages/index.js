@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
       <Header></Header>
       <MainContainer>
-      <h2 className="titleSection">May Email</h2>
+      <h2 className="titleSection">June Email</h2>
         <ul className="template-container">
           <li>
             <Link className="link" label="Template View" url="https://flex-email.vercel.app/templates/june/template1/template1.html"></Link>
