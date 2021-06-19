@@ -58,7 +58,7 @@ export default function Home() {
             ></iframe>
           </li>     
           <li>
-            <Link className="template" label="EOA testing link" url="https://app.emailonacid.com/shared-preview/akJHnlXP5C"></Link>
+            <Link className="template" label="EOA testing link" url="https://app.emailonacid.com/shared-preview/9sQ2EckgP6"></Link>
             <Link className="link" label="Template View" url="https://flex-email.vercel.app/templates/june/template5/template5.html"></Link>
             <iframe
               id="inlineFrameExample"
