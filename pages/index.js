@@ -32,7 +32,37 @@ export default function Home() {
               height="700"
               src="https://flex-email.vercel.app/templates/june/template2/template2.html"
             ></iframe>
-          </li>                                                   
+          </li>     
+          <li>
+            <Link className="link" label="Template View" url="https://flex-email.vercel.app/templates/june/template3/template3.html"></Link>
+            <iframe
+              id="inlineFrameExample"
+              title="Inline Frame Example"
+              width="600"
+              height="700"
+              src="https://flex-email.vercel.app/templates/june/template3/template3.html"
+            ></iframe>
+          </li>     
+          <li>
+            <Link className="link" label="Template View" url="https://flex-email.vercel.app/templates/june/template4/template4.html"></Link>
+            <iframe
+              id="inlineFrameExample"
+              title="Inline Frame Example"
+              width="600"
+              height="700"
+              src="https://flex-email.vercel.app/templates/june/template4/template4.html"
+            ></iframe>
+          </li>     
+          <li>
+            <Link className="link" label="Template View" url="https://flex-email.vercel.app/templates/june/template5/template5.html"></Link>
+            <iframe
+              id="inlineFrameExample"
+              title="Inline Frame Example"
+              width="600"
+              height="700"
+              src="https://flex-email.vercel.app/templates/june/template5/template5.html"
+            ></iframe>
+          </li>                                                                                 
         </ul>  
         <h2 className="titleSection">May Email</h2>
         <ul className="template-container">
