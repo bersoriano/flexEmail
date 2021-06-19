@@ -14,6 +14,7 @@ export default function Home() {
       <h2 className="titleSection">June Email</h2>
         <ul className="template-container">
           <li>
+            <Link className="template" label="EOA testing link" url="https://app.emailonacid.com/shared-preview/UHs4eY4g2y"></Link>
             <Link className="link" label="Template View" url="https://flex-email.vercel.app/templates/june/template1/template1.html"></Link>
             <iframe
               id="inlineFrameExample"
