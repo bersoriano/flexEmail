@@ -25,6 +25,7 @@ export default function Home() {
             ></iframe>
           </li>
           <li>
+            <Link className="template" label="EOA testing link" url="https://app.emailonacid.com/shared-preview/oiOR6xH9qo"></Link>            
             <Link className="link" label="Template View" url="https://flex-email.vercel.app/templates/june/template2/template2.html"></Link>
             <iframe
               id="inlineFrameExample"
@@ -35,6 +36,7 @@ export default function Home() {
             ></iframe>
           </li>     
           <li>
+            <Link className="template" label="EOA testing link" url="https://app.emailonacid.com/shared-preview/yF4SzKKTsc"></Link>                        
             <Link className="link" label="Template View" url="https://flex-email.vercel.app/templates/june/template3/template3.html"></Link>
             <iframe
               id="inlineFrameExample"
@@ -45,6 +47,7 @@ export default function Home() {
             ></iframe>
           </li>     
           <li>
+            <Link className="template" label="EOA testing link" url="https://app.emailonacid.com/shared-preview/akJHnlXP5C"></Link>
             <Link className="link" label="Template View" url="https://flex-email.vercel.app/templates/june/template4/template4.html"></Link>
             <iframe
               id="inlineFrameExample"
@@ -55,6 +58,7 @@ export default function Home() {
             ></iframe>
           </li>     
           <li>
+            <Link className="template" label="EOA testing link" url="https://app.emailonacid.com/shared-preview/akJHnlXP5C"></Link>
             <Link className="link" label="Template View" url="https://flex-email.vercel.app/templates/june/template5/template5.html"></Link>
             <iframe
               id="inlineFrameExample"
